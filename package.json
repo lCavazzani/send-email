@@ -1,0 +1,19 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cd server/ && index.js",
+  "scripts": {
+    "start": "cd server/ && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lCavazzani/send-email.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lCavazzani/send-email/issues"
+  },
+  "homepage": "https://github.com/lCavazzani/send-email#readme"
+}
