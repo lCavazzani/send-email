@@ -1,4 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
@@ -17,7 +16,7 @@ class Header extends Component {
       default:
         return (
           <li>
-            <a href="/api/logout">Login with Google</a>
+            <a href="/api/logout">logout</a>
           </li>
         );
     }
@@ -27,7 +26,7 @@ class Header extends Component {
     return (
       <nav>
         <div className="nav-wrapper">
-          <a href="www.google.com" className="left brand-logo">
+          <a href="/" className="left brand-logo">
             {" "}
             Email
           </a>
