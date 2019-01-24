@@ -7,11 +7,19 @@ class Header extends Component {
     const { auth } = this.props;
     switch (auth) {
       case null:
-        return "still  deciding";
+        return "";
       case false:
-        return "Logged out";
+        return (
+          <li>
+            <a href="/auth/google">Login with Google</a>
+          </li>
+        );
       default:
-        return "logged in";
+        return (
+          <li>
+            <a href="/api/logout">Login with Google</a>
+          </li>
+        );
     }
   }
 
