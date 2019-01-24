@@ -1,1 +1,2 @@
-export const FETCH_USER = 'fetch_user'
+/* eslint-disable import/prefer-default-export */
+export const FETCH_USER = "fetch_user";
